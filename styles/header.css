@@ -1,5 +1,5 @@
 .header {
-  height: 100px;
+  height: 55px;
 
   display: flex;
   flex-direction: row;
@@ -12,9 +12,9 @@
   z-index: 100;
 
   background-color: white;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(228, 228, 228);
+  border-bottom-width: 5px;
+  border-bottom-style: inset;
+  border-bottom-color: rgb(67, 194, 244);
 }
 
 .left-section {
@@ -23,7 +23,7 @@
 }
 
 .logo{
-    height: 150px;
+    height: 75px;
 }
 
 .middle-section {

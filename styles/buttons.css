@@ -1,5 +1,13 @@
+.logo-button {
+  background-color: rgb(67, 194, 244);
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
 .project-button {
-  background-color: rgb(200, 0, 0);
+  background-color: rgb(67, 194, 244);
   color: white;
   border: none;
   border-radius: 2px;
@@ -15,5 +23,25 @@
 }
 
 .project-button:hover {
+  opacity: 0.8;
+}
+
+.about-button {
+  background-color: rgb(67, 194, 244);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+.about-button:hover {
   opacity: 0.8;
 }
